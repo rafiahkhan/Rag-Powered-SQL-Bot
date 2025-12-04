@@ -6,42 +6,21 @@ A powerful Streamlit-based chatbot that leverages Retrieval-Augmented Generation
 
 ---
 
-## 📋 Table of Contents
+## Features
 
-- [Features](#-features)
-- [Technologies Used](#-technologies-used)
-- [Project Architecture](#-project-architecture)
-- [Project Structure](#-project-structure)
-- [Project Flow Chart](#-project-flow-chart)
-- [Demo](#-demo)
-- [Installation & Setup](#-installation--setup)
-- [How It Works](#-how-it-works)
-- [Configuration](#-configuration)
-- [Usage Examples](#-usage-examples)
-- [Security Features](#-security-features)
-- [Troubleshooting](#-troubleshooting)
-- [Future Enhancements](#-future-enhancements)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Acknowledgments](#-acknowledgments)
+- **Natural Language Interface:** Ask questions in plain English and receive both SQL queries and human-readable responses
+- **MySQL Database Support:** Compatible with any MySQL database with easy configuration through an interactive sidebar
+- **Powered by Groq's LLaMA 3.3-70B:** Advanced language model providing robust, context-aware SQL query generation
+- **Context-Aware Conversations:** Maintains conversation history for follow-up questions and contextual understanding
+- **Read-Only Operations:** Built-in safety mechanisms ensure only SELECT queries are executed (no INSERT, UPDATE, DELETE, etc.)
+- **Clean and Responsive Streamlit UI:** Intuitive chat interface for seamless database interaction
+- **Real-time Query Execution:** Executes SQL queries in real-time, returning results as conversational responses
+- **Schema-Aware:** Automatically retrieves and uses database schema information for accurate query generation
+- **Error Handling:** Graceful error handling for invalid queries, connection issues, and edge cases
 
 ---
 
-## ✨ Features
-
-- **💬 Natural Language Interface:** Ask questions in plain English and receive both SQL queries and human-readable responses
-- **🛠️ MySQL Database Support:** Compatible with any MySQL database with easy configuration through an interactive sidebar
-- **🧠 Powered by Groq's LLaMA 3.3-70B:** Advanced language model providing robust, context-aware SQL query generation
-- **🔄 Context-Aware Conversations:** Maintains conversation history for follow-up questions and contextual understanding
-- **🔒 Read-Only Operations:** Built-in safety mechanisms ensure only SELECT queries are executed (no INSERT, UPDATE, DELETE, etc.)
-- **🎨 Clean and Responsive Streamlit UI:** Intuitive chat interface for seamless database interaction
-- **⚡ Real-time Query Execution:** Executes SQL queries in real-time, returning results as conversational responses
-- **📊 Schema-Aware:** Automatically retrieves and uses database schema information for accurate query generation
-- **🛡️ Error Handling:** Graceful error handling for invalid queries, connection issues, and edge cases
-
----
-
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **LangChain:** Framework for integrating language models with databases, enabling natural language to SQL translation
 - **LangChain Community:** Additional utilities including SQLDatabase wrapper for database interactions
@@ -54,7 +33,7 @@ A powerful Streamlit-based chatbot that leverages Retrieval-Augmented Generation
 
 ---
 
-## 🏗️ Project Architecture
+##  Project Architecture
 
 The project follows a modular architecture with clear separation of concerns:
 
@@ -66,7 +45,7 @@ The project follows a modular architecture with clear separation of concerns:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 RAG-Chatbot-Over-SQL-Database/
@@ -102,7 +81,7 @@ RAG-Chatbot-Over-SQL-Database/
 
 ---
 
-## 📊 Project Flow Chart
+##  Project Flow Chart
 
 The following flowchart illustrates the complete workflow of the RAG-Chatbot system:
 
@@ -186,7 +165,7 @@ flowchart TD
 
 ---
 
-## 🎥 Demo
+## Demo
 
 ### Video Demonstration
 
@@ -208,7 +187,7 @@ The demo showcases:
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 
@@ -280,7 +259,7 @@ The application will automatically open in your default web browser at `http://l
 
 ---
 
-## 🔄 How It Works
+## How It Works
 
 ### Detailed Workflow
 
@@ -344,7 +323,7 @@ The system maintains conversation history, allowing for:
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 ### Database Configuration
 
@@ -445,7 +424,7 @@ WHERE order_date BETWEEN '2024-01-01' AND '2024-03-31';
 
 ---
 
-## 🔒 Security Features
+## Security Features
 
 ### Read-Only Operations
 - **Strict Query Validation:** System only generates and executes SELECT queries
@@ -470,7 +449,7 @@ WHERE order_date BETWEEN '2024-01-01' AND '2024-03-31';
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues and Solutions
 
@@ -520,7 +499,7 @@ WHERE order_date BETWEEN '2024-01-01' AND '2024-03-31';
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 Potential improvements and features for future versions:
 
@@ -539,7 +518,7 @@ Potential improvements and features for future versions:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -549,21 +528,15 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-**Guidelines:**
-- Follow PEP 8 Python style guidelines
-- Add comments for complex logic
-- Update documentation for new features
-- Test thoroughly before submitting
-
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **LangChain:** For providing an excellent framework for building LLM-powered applications
 - **Groq:** For offering high-performance LLM inference with LLaMA 3.3-70B
@@ -573,7 +546,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-## 📞 Contact & Support
+##  Contact & Support
 
 For questions, issues, or contributions:
 - Open an issue on GitHub
@@ -581,5 +554,3 @@ For questions, issues, or contributions:
 - Review code comments for implementation details
 
 ---
-
-**Made with ❤️ using LangChain, Groq, and Streamlit**
