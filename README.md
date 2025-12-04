@@ -172,6 +172,7 @@ flowchart TD
 Watch the demo video below to see the RAG-Chatbot in action:
 
 https://github.com/user-attachments/assets/22737fed-aa70-45cb-bb1b-f3e14cd0b31e
+
 **Or download and watch:** [Demo.mp4](./Demo.mp4)
 
 The demo showcases:
@@ -182,7 +183,6 @@ The demo showcases:
 - Maintaining conversation context across multiple queries
 - Handling various types of database queries (aggregations, filters, joins, etc.)
 
-> **Note:** If you have a video hosted elsewhere (YouTube, Vimeo, etc.), you can replace the link above. For large video files, consider using GitHub's video hosting or external platforms to keep the repository size manageable.
 
 ---
 
