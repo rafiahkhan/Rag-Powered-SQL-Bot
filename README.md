@@ -171,8 +171,7 @@ flowchart TD
 
 Watch the demo video below to see the RAG-Chatbot in action:
 
-https://github.com/user-attachments/assets/demo-video-url
-
+https://github.com/user-attachments/assets/22737fed-aa70-45cb-bb1b-f3e14cd0b31e
 **Or download and watch:** [Demo.mp4](./Demo.mp4)
 
 The demo showcases:
