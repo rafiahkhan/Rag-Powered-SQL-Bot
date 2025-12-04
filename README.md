@@ -199,8 +199,8 @@ The demo showcases:
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/RAG-Chatbot-Over-SQL-Database.git
-cd RAG-Chatbot-Over-SQL-Database
+git clone https://github.com/rafiahkhan/Rag-Powered-SQL-Bot.git
+cd Rag-Powered-SQL-Bot
 ```
 
 #### 2. Create a Virtual Environment (Recommended)
